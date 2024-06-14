@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Theme.Baatori" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/colorBlue</item>
+        <item name="colorPrimaryVariant">@color/colorOrange</item>
+        <item name="colorOnPrimary">@color/colorYellow</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/colorOrangeDark</item>
+        <item name="colorSecondaryVariant">@color/colorBlueDark</item>
+        <item name="colorOnSecondary">@color/colorLightWhite</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">@color/white</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">@color/text_color</item>
+        <!-- Customize your theme here. -->
+        <item name="android:textColorPrimary">@color/white</item>
+    </style>
+
+    <style name="Theme.Baatori.Switch" parent="Theme.Baatori">
+
+        <item name="colorOnSurface">@color/colorBlue900</item>
+        <item name="colorSecondary">@color/colorBlue100</item>
+    </style>
+
+
+
+    <style name="viewParent">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="viewParent.headerText">
+        <item name="android:textColor">@color/contentTextColor</item>
+        <item name="android:textSize">@dimen/headerTextSize</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="viewParent.headerText.NoMode">
+        <item name="android:textColor">@color/darkTextColor</item>
+        <item name="android:fontFamily">@font/helvetica_bold</item>
+    </style>
+
+    <style name="parent">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="modifiedEditText" parent="parent">
+        <item name="android:textSize">@dimen/newsMoreTextSize</item>
+    </style>
+
+    <style name="loginButton" parent="viewParent">
+        <item name="android:background">@color/colorBlue</item>
+        <item name="android:textColor">@color/whiteTextColor</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="spinnerHintText" parent="parent">
+        <item name="android:textSize">@dimen/newsMoreTextSize</item>
+        <item name="android:textColor">@color/colorBlue</item>
+        <item name="android:paddingLeft">5dp</item>
+    </style>
+
+    <style name="textView_main">
+        <item name="android:fontFamily">@font/helvetica</item>
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:textSize">@dimen/main_text_size</item>
+    </style>
+
+    <style name="textView_header">
+        <item name="android:fontFamily">@font/robotocondensed_bold</item>
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:textSize">@dimen/header_text_size</item>
+    </style>
+
+    <style name="textView_sub">
+        <item name="android:fontFamily">@font/robotocondensed_bold</item>
+        <item name="android:textColor">@color/sub_text_color</item>
+        <item name="android:textSize">@dimen/sub_text_size</item>
+    </style>
+
+    <style name="textView_sub_sub">
+        <item name="android:fontFamily">@font/robotocondensed_light</item>
+        <item name="android:textColor">@color/sub_text_color</item>
+        <item name="android:textSize">@dimen/sub_sub_text_size</item>
+    </style>
+
+
+
+
+    <!--  REGULAR COLOR  -->
+    <style name="textView_regular_color_20">
+        <item name="android:fontFamily">@font/robotocondensed_regular</item>
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="textView_regular_color_18">
+        <item name="android:fontFamily">@font/robotocondensed_regular</item>
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="textView_regular_color_16">
+        <item name="android:fontFamily">@font/robotocondensed_regular</item>
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="textView_regular_color_14">
+        <item name="android:fontFamily">@font/robotocondensed_regular</item>
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="textView_regular_color_12">
+        <item name="android:fontFamily">@font/robotocondensed_regular</item>
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+
+    <!--  REGULAR SUB-COLOR  -->
+    <style name="textView_regular_sub_color_20">
+        <item name="android:fontFamily">@font/robotocondensed_regular</item>
+        <item name="android:textColor">@color/sub_text_color</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="textView_regular_sub_color_18">
+        <item name="android:fontFamily">@font/robotocondensed_regular</item>
+        <item name="android:textColor">@color/sub_text_color</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="textView_regular_sub_color_162">
+        <item name="android:fontFamily">@font/robotocondensed_regular</item>
+        <item name="android:textColor">@color/sub_text_color</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="textView_regular_sub_color_14">
+        <item name="android:fontFamily">@font/robotocondensed_regular</item>
+        <item name="android:textColor">@color/sub_text_color</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="textView_regular_sub_color_12">
+        <item name="android:fontFamily">@font/robotocondensed_regular</item>
+        <item name="android:textColor">@color/sub_text_color</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+
+
+    <!--  BOLD COLOR  -->
+    <style name="textView_bold_color_20">
+        <item name="android:fontFamily">@font/robotocondensed_bold</item>
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="textView_bold_color_18">
+        <item name="android:fontFamily">@font/robotocondensed_bold</item>
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="textView_bold_color_16">
+        <item name="android:fontFamily">@font/robotocondensed_bold</item>
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="textView_bold_color_14">
+        <item name="android:fontFamily">@font/robotocondensed_bold</item>
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="textView_bold_color_12">
+        <item name="android:fontFamily">@font/robotocondensed_bold</item>
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+
+    <!--  BOLD SUB-COLOR  -->
+    <style name="textView_bold_sub_color_20">
+        <item name="android:fontFamily">@font/robotocondensed_bold</item>
+        <item name="android:textColor">@color/sub_text_color</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="textView_bold_sub_color_18">
+        <item name="android:fontFamily">@font/robotocondensed_bold</item>
+        <item name="android:textColor">@color/sub_text_color</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="textView_bold_sub_color_16">
+        <item name="android:fontFamily">@font/robotocondensed_bold</item>
+        <item name="android:textColor">@color/sub_text_color</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="textView_bold_sub_color_14">
+        <item name="android:fontFamily">@font/robotocondensed_bold</item>
+        <item name="android:textColor">@color/sub_text_color</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="textView_bold_sub_color_12">
+        <item name="android:fontFamily">@font/robotocondensed_bold</item>
+        <item name="android:textColor">@color/sub_text_color</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+
+
+
+
+    <style name="style_toolbar">
+        <item name="android:fontFamily">@font/helvetica_bold</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+</resources>
